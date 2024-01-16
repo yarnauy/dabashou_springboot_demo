@@ -18,13 +18,13 @@
 
 - Java: JDK 1.8 - JDK 14均可
 - 区块链交互工具: fisco-bcos-java-sdk:3.3.0
-- 构建工具这里采用了gradle,版本为6.3，以供参考
+- 构建工具这里采用了gradle
 
 
 #### java应用构建引导(以gradle项目为例)
 ##### 前期配置
 1. 创建java gradle项目（或引入本示例项目）
-2. 引入依赖库,以 参考[这里](./build.gradle),（7.0以上版本gradle不兼容)
+2. 引入依赖库,以 参考[这里](./build.gradle)
 3. 创建配置文件application.properties
   ```yml
   ### Java sdk configuration
